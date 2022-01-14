@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Labels</title>
+</head>
+<body>
+      <h1>Fill Whatever you feel like </h1>
+
+      <form>
+
+        <strong> Enter your  Name : </strong> <input type="text" placeholder=" Enter your Full Name"> <br> <br>
+        <em>Enter your Net.Id :  </em> <input type="email" placeholder="xyz@srmist.edu.in" > <br>
+
+        <p><strong>Select your Gender</strong></p> 
+        <label for="Male"> <input type="radio" value="M" name="Gender" id="Male">Male </label> <br>
+        <label for="Female"> <input type="radio" value="F" name="Gender" id="Female" >Female </label>  <br>
+        <label for="Other"> <input type="radio" value="O" name="Gender" id="Other" >Other </label> <br>
+        <!-- In order ot be able to opt only 1 option, input type shall be RADIO & name="" shall be same for all cases -->
+        
+        <h2>Kya-Kya Padh rakha hai.....???</h2> 
+        <label for="DSA"> <input type="checkbox" value="dsa" name="Subjects" id="DSA"> DSA</label><br>
+        <label for="OOPS"><input type="checkbox" value="oops" name="Subjects" id="OOPS">OOPS</label><br>
+        <label for="Maths"> <input type="checkbox" value="Maths" name="Subjects" id="Maths">Maths</label><br>
+        <label for="ADE"> <input type="checkbox" value="ade" id="ADE" name="Subjects">ADE</label> <br>
+        <label for="COA"><input type="checkbox"value="coa" id="COA" name="Subjects">COA</label>
+
+        <p>Why do you think end-sem exams will be offline..??</p>
+        <textarea name="Kuch bhi" id="kuch bhi" placeholder="Tyoe your answer" cols="30" rows="10"></textarea> <br>
+
+        <input type="submit">
+
+      </form>
+</body>
+</html>
